@@ -66,7 +66,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     _resultText = _result.text ?? "No data found";
                   });
                 },
-                child: const Text("Get Result"),
+                child: const Text("Get Results"),
               ),
               Text(_resultText)
             ],
